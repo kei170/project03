@@ -1,0 +1,414 @@
+img{max-width: 100%;}
+
+#box01{
+  padding: 67px 0 38px;
+  margin: 0 auto;
+  background: url('../img/KakaoTalk_20230104_152154318.jpg');
+}
+#box01>div{
+  width: 1190px;
+  margin: 0 auto;
+  /* background-color: salmon; */
+  display: flex;
+  overflow: hidden;
+}
+#box01 .contaner01{
+  width: 595px;
+  margin: 0 auto;
+  /* background-color: seagreen; */
+}
+#box01 .contaner01>h3{
+  font-size: 35px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#box01 .contaner01>p{
+  font-size: 15px;
+  line-height: 23px;
+  color: #fff;
+  margin-bottom: 57px;
+}
+#box01 .contaner01 ul{
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#box01 .contaner01 ul>li{
+  margin-left: 35px;
+}
+#box01 .contaner01 ul>li>a{
+  font-size: 15px;
+  color: #fff;
+}
+#box01 .contaner01 ul>li>a:hover{
+  background-color: orange;
+  color: skyblue;
+}
+
+.contaner02{
+  width: 657px;
+  margin: 0 auto;
+}
+.contaner02>figure{
+  margin-left: 70px;
+}
+.contaner02>figure>img{
+  max-width: 100%;
+}
+
+#box02{
+  padding: 60px 0 83px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+#box02>h3{
+  width: 1190px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #555;
+  line-height: 50px;
+  margin: 0 auto 45px;
+}
+div.pic{
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.pic>figure{
+  width: 23%;
+}
+div.pic>figure>img{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+div.pic>figure>figcaption{
+  width: 183px; height: 220px;
+  margin: 0 auto; 
+  position: relative;
+}
+div.pic>figure>figcaption>dl{
+}
+div.pic>figure>figcaption>dl>dt{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+div.pic>figure>figcaption>dl>dd{
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+div.pic>figure>figcaption>dl>dd:nth-child(3){
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+div.pic>figure>figcaption>dl>dd:nth-child(4){
+  width: 123px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0; bottom: 30px;
+}
+div.pic>figure>figcaption>dl>dd:nth-child(4)>button{
+  width: 123px; height: 30px;
+  background-color: orange;
+  color: #000;
+  border: none;
+}
+div.pic>figure>figcaption>dl>dd:nth-child(4)>button:hover{
+  color: #fff;
+}
+
+#box03{
+  padding: 116px 0 115px;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+}
+#box03>h3{
+  width: 1190px;
+  margin: 0 auto 23px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+div.view{
+  width: 1190px;
+  margin: 0 auto;
+}
+div.view>dl{
+  width: 1190px;
+  margin: 0 auto;
+}
+div.view>dl>dt{
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 32px;
+}
+div.view>dl>dd{
+  font-size: 12px;
+  line-height: 20px;
+  color: #555;
+  margin-bottom: 40px;
+}
+div.view>dl>dd>button{
+  width: 148px; height: 40px;
+  background-color: orange;
+  border: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+div.view>dl>dd>button:hover{
+  color: #fff;
+}
+
+#box04{
+  padding: 75px 0 83px;
+  margin: 0 auto;
+  background-color: #fff; 
+}
+#box04>h3{
+  width: 1190px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #555;
+  line-height: 50px;
+  margin:0 auto 49px;
+}
+#box04 ul{
+  width: 1190px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 52px;
+}
+#box04 ul>li{
+  padding: 0 53px;
+}
+#box04 ul>li>a{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+#box04 ul>li>a:hover{
+  background-color: orange;
+  color: #fff;
+}
+
+div.man{
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.man>figure{
+  width: 23%;
+}
+div.man>figure>img{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+div.man>figure>figcaption{
+  width: 183px; height: 210px;
+  margin: 0 auto; 
+  position: relative;
+}
+div.man>figure>figcaption>dl{}
+div.man>figure>figcaption>dl>dt{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+div.man>figure>figcaption>dl>dd{
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+div.man>figure>figcaption>dl>dd:nth-child(3){
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(0, 217, 255);
+}
+div.man>figure>figcaption>dl>dd:nth-child(4){
+  width: 123px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0; bottom: -20px;
+}
+div.man>figure>figcaption>dl>dd:nth-child(4)>button{
+  width: 123px; height: 30px;
+  background-color: orange;
+  color: #000;
+  border: none;
+}
+div.man>figure>figcaption>dl>dd:nth-child(4)>button:hover{
+  color: #fff;
+}
+
+#box05{
+  padding: 55px 0 60px;
+  margin: 0 auto;
+  background-color: #4c4c4c;
+}
+#box05>div{
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+div.shop{
+  width: 50%;
+}
+div.shop>figure{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.shop>figure>img{
+width:50%;
+}
+div.shop>figure>figcaption{}
+div.shop>figure>figcaption>dl{}
+div.shop>figure>figcaption>dl>dt{
+  color: #fff;
+  margin-top: 93px;
+  font-size: 12px;
+  line-height: 23px;
+  font-weight: bold;
+}
+div.shop>figure>figcaption>dl>dd{
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+div.shop>figure>figcaption>dl>dd:nth-child(3){
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold;
+}
+div.shop>figure>figcaption>dl>dd:nth-child(4){
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+div.shop>figure>figcaption>dl>dd>button{
+  width: 105px; height: 35px;
+  background-color: orange;
+  color: #000;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+div.shop>figure>figcaption>dl>dd>button:hover{
+  color: #fff;
+}
+
+div.fashion{
+  width: 50%;
+  
+}
+div.fashion>figure{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+div.fashion>figure>img{
+  max-width: 50%;
+}
+div.fashion>figure>figcaption{
+  position: absolute;
+  right: 300px; bottom: 150px;
+}
+div.fashion>figure>figcaption>dl{}
+div.fashion>figure>figcaption>dl>dt{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  line-height: 30px;
+}
+div.fashion>figure>figcaption>dl>dd{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: orange;
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+}
+
+aside{
+  padding: 60px 0 58px;
+  margin: 0 auto;
+  background-color: orange;
+}
+aside>h3{
+  width: 1190px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 40px;
+}
+aside div{
+  width: 1190px;
+  margin: 0 auto;
+  /* background-color: seagreen; */
+  display: flex;
+  flex-wrap: wrap;
+}
+aside div.info{
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: skyblue; */
+}
+aside div.info>figure{
+  width: 50%;
+}
+aside div.info>figure>img{
+  max-width: 100%;
+}
+
+aside div.service{
+  width: 50%;
+  padding: 50px 0 40px;
+}
+aside div.service>p{
+  color: #000;
+  margin-left: -280px;
+  font-size: 12px;
+  line-height: 22px;
+}
+aside div.service dl{
+  width: 130px;
+  margin-left: -280px;
+  line-height: 20px;
+}
+aside div.service dl>dt{
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+aside div.service dl>dd{
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}

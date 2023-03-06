@@ -1,0 +1,454 @@
+@use './variable.scss' as *;
+@import './mixin.scss';
+@import './common.scss';
+
+/* content */
+img{max-width: 100%;}
+
+#box01{
+  padding: 67px 0 38px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background: url('../img/KakaoTalk_20230104_152154318.jpg');
+  > div{
+    width: $content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    /* background-color: salmon; */
+    display: flex;
+    overflow: hidden;
+  }
+  .contaner01{
+    width: 595px;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    /* background-color: seagreen; */
+    h3{
+      font-size: $size-larger;
+      line-height: 48px;
+      color: $color-ca;
+      margin-bottom: $souce * 3;
+    }
+    p{
+      font-size: $size-normal;
+      line-height: 23px;
+      color: $color-ca;
+      margin-bottom: 57px;
+    }
+    ul{
+      width: 260px;
+      @include width($bottom:0);
+      // margin: 0 auto;
+      @include layout($flex-start:center,$between:space-between);
+      // display: flex;
+      flex-wrap: wrap;
+      // justify-content: space-between;
+      li{
+        margin-left: 35px;
+        a{
+          font-size: $size-normal;
+          color: $color-ca;
+          &:hover{
+            background-color: orange;
+            color: skyblue;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  .contaner02{
+    width: 657px;
+    margin: 0 auto;
+    figure{
+      margin-left: 70px;
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+#box02{
+  padding: 60px 0 83px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background-color: $color-ca;
+  h3{
+    width: $content;
+    font-size: $size-larger;
+    font-weight: bold;
+    color: $color-black;
+    border-bottom: 2px solid #555;
+    line-height: $souce * 5;
+    margin: 0 auto 45px;
+  }
+  > div.pic{
+    width: $content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    @include layout($flex-start:center,$between:space-between);
+    // display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    figure{
+      width: 23%;
+      img{
+        max-width: $full;
+        margin-bottom: $souce * 3;
+      }
+    }
+     figcaption{
+      width: 183px; height: 220px;
+      @include width($bottom:0);
+      // margin: 0 auto; 
+      position: relative;
+      dl{
+        dt{
+          font-size: 15px;
+          color: $color-black;
+          font-weight: bold;
+          margin-bottom: $souce;
+          line-height: $souce * 2;
+        }
+         dd{
+          font-size: 12px;
+          color: $color-aa;
+          margin-bottom: $souce * 2;
+          line-height: $souce * 2;
+         }
+          dd:nth-child(3){
+            font-size: $size-small;
+            font-weight: bold;
+            color: $color-black;
+          }  
+          dd:nth-child(4){
+            width: 123px;
+            @include width($bottom:0);
+            // margin: 0 auto;
+            position: absolute;
+            left: 0; bottom: 30px;
+          button{
+            width: 123px; height: 30px;
+            background-color: orange;
+            color: $color-black;
+            border: none;
+            &:hover{
+              color: $color-ca;
+            }
+          }
+          }
+        }
+      }
+    }
+  }
+
+
+#box03{
+  padding: 116px 0 115px;
+  @include width();
+  // margin: 0 auto;
+  background-color: $color-3d;
+  h3{
+    width: $content;
+    @include width($bottom:23px);
+    // margin: 0 auto 23px;
+    font-size: $size-larger;
+    font-weight: bold;
+    color: $color-ca;
+  }
+   div.view{
+    width: $content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    dl{
+      width: $content;
+      margin: 0 auto;
+      dt{
+        font-size: $size-normal;
+        font-weight: bold;
+        color: $color-ca;
+        margin-bottom: 32px;
+      }
+      dd{
+        font-size: $size-small;
+        line-height: 20px;
+        color: $color-aa;
+        margin-bottom: 40px;
+        button{
+          width: 148px; height: 40px;
+          background-color: orange;
+          border: none;
+          color: $color-black;
+          font-size: 12px;
+          font-weight: bold;
+          &:hover{
+            color: $color-ca;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#box04{
+  padding: 75px 0 83px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background-color: $color-ca; 
+  h3{
+    width: $content;
+    font-size: $size-larger;
+    font-weight: bold;
+    color: $color-black;
+    border-bottom: 2px solid #555;
+    line-height: 50px;
+    margin:0 auto 49px;
+  }
+  ul{
+    width: $content;
+    @include layout($flex-start:center);
+    @include width($bottom:52px);
+    // display: flex;
+    flex-wrap: wrap;
+    // margin: 0 auto 52px;
+    li{
+      padding: 0 53px;
+      a{
+        font-size: $size-normal;
+        color: $color-black;
+        font-weight: bold;
+        &:hover{
+          background-color: orange;
+          color: $color-ca;
+        }
+      }
+    }
+  }
+   div.man{
+    width: $content;
+    @include width($bottom:0);
+    @include layout($flex-start:center,$between:space-between);
+    // margin: 0 auto;
+    // display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    figure{
+      width: 23%;
+      img{
+        max-width: $full;
+        margin-bottom: 30px;
+      }
+    figcaption{
+      width: 183px; height: 210px;
+      @include width($bottom:0);
+      // margin: 0 auto; 
+      position: relative;
+      dl{
+        dt{
+          font-size: $size-normal;
+          color: #000;
+          font-weight: bold;
+          margin-bottom: 10px;
+          }
+        dd{
+            font-size: $size-small;
+            color: $color-aa;
+            margin-bottom: 20px;
+            line-height: 20px;
+          &:nth-child(3){
+              font-size: $size-small;
+              font-weight: bold;
+              color: rgb(0, 217, 255);
+          }  
+          &:nth-child(4){
+              width: 123px;
+              @include width($bottom:0);
+              // margin: 0 auto;
+              position: absolute;
+              left: 0; bottom: -20px;
+              button{
+                width: 123px; height: 30px;
+                background-color: orange;
+                color: #000;
+                border: none;
+                &:hover{
+                  color: $color-ca;
+                }
+              }
+          }
+          }
+        }
+      }
+      }
+    }
+  }
+#box05{
+  padding: 55px 0 60px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background-color: $color-3d;
+  div{
+    width: $content;
+    @include width($bottom:0);
+    @include layout($flex-start:center,$between:space-between);
+    // margin: 0 auto;
+    // display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    position: relative;
+    .shop{
+      width: 50%;
+      figure{
+        @include layout($flex-start:center,$between:space-between);
+        // display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+        img{
+          width: 50%;
+        }
+        figcaption{
+          dl{
+            dt{
+              color: $color-ca;
+              margin-top: 93px;
+              font-size: $size-normal;
+              line-height: 23px;
+              font-weight: bold;
+            }
+            dd{
+              font-size: $size-small;
+              color: $color-ca;
+              font-weight: bold;
+              margin-bottom: 30px;
+              &:nth-child(3){
+                font-size: $size-larger;
+                color: $color-ca;
+                font-weight: bold;
+              }
+              &:nth-child(4){
+                font-size: $size-normal;
+                color: $color-ca;
+                font-weight: bold;
+                margin-bottom: 25px;
+              }
+              button{
+                width: 105px; height: 35px;
+                background-color: orange;
+                color: $color-black;
+                border: none;
+                font-size: $size-normal;
+                font-weight: bold;
+                &:hover{
+                  color: $color-ca;
+                }
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  
+  .fashion{
+    width: 50%;
+    figure{
+      @include layout($flex-start:center,$between:space-between);
+      // display: flex;
+      flex-wrap: wrap;
+      // justify-content: space-between;
+      margin-left: 90px;
+      img{
+        max-width: 50%;
+      }
+    }
+    figcaption{
+      position: absolute;
+      right: 300px; bottom: 150px;
+      dl{
+        dt{
+          font-size: 20px;
+          font-weight: bold;
+          background-color: $color-ca;
+          color: $color-black;
+          line-height: 30px;
+        }
+        dd{
+          font-size: 16px;
+          font-weight: bold;
+          background-color: orange;
+          color: $color-black;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+    }
+    
+  }
+
+}
+
+aside{
+  padding: 60px 0 58px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background-color: orange;
+  h3{
+    width: $content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    font-size: $size-larger;
+    font-weight: bold;
+    color: $color-black;
+    margin-bottom: 40px;
+  }
+  div{
+    width: $content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    /* background-color: seagreen; */
+    display: flex;
+    flex-wrap: wrap;
+    .info{
+      width: 50%;
+      @include width($bottom:0);
+      // margin: 0 auto;
+      /* background-color: skyblue; */
+      figure{
+        width: 50%;
+        img{
+          max-width: $full;
+        }
+      }
+    }
+  }
+  .service{
+    width: 50%;
+    padding: 50px 0 40px;
+    p{
+      color: $color-black;
+      margin-left: -280px;
+      font-size: $size-small;
+      line-height: 22px;
+    }
+    dl{
+      width: 130px;
+      margin-left: -280px;
+      line-height: 20px;
+      dt{
+        font-size: $size-normal;
+        font-weight: bold;
+        color: $color-black;
+      }
+      dd{
+        font-size: $size-normal;
+        font-weight: bold;
+        color: $color-3d;
+      }
+    }
+  }
+}
+  

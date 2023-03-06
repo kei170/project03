@@ -1,0 +1,54 @@
+/* header */
+@use './variable.scss' as *;
+@import './mixin.scss';
+
+header{
+  padding: 40px 0 23px;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  background-color: rgba(0,0,0,0.8);
+  div{
+    width:$content;
+    @include width($bottom:0);
+    // margin: 0 auto;
+    /* background-color: green; */
+    @include layout($flex-start:center,$between:space-between);
+    // display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+  }
+  h1{
+    margin-left: 25px;
+    a{
+      font-size: $size-normal;
+      // font-size: 25px;
+      color: #000;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px pink;
+      &:hover{
+        background-color: orange;
+        color: skyblue;
+      }
+    }
+  }
+  
+}
+
+nav{
+  ul{
+      display: flex;
+      flex-wrap: wrap;
+      li{
+          margin-left: 20px;
+          a{
+              font-size: 15px;
+              color: #000;
+              text-shadow: 1px 1px 2px skyblue;
+              &:hover{
+                  background-color: orange;
+                  color: blue;
+              }
+          }
+      }
+  }
+}

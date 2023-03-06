@@ -1,0 +1,13 @@
+@use './variable.scss' as *;
+
+@mixin layout($flex-start:center,$between:space-between){
+  display: flex;
+  justify-content: $between;
+  // align-items: $flex-start;
+}
+
+@mixin width($bottom:auto){
+  margin: 0 auto;
+  margin-bottom: $bottom;
+}
+

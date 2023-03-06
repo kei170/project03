@@ -1,0 +1,14 @@
+@use './variable.scss' as *;
+@import './mixin.scss';
+
+footer{
+  padding: 30px 0 27px;
+  background-color: $color-3d;
+  @include width($bottom:0);
+  // margin: 0 auto;
+  text-align: center;
+  small{
+    font-size: $size-normal;
+    color: $color-aa;
+  }
+}
