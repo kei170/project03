@@ -10,7 +10,7 @@
 
 - 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
 
-- [바로가기](http://localhost:3000/)
+- [바로가기](https://jihoon-project-3.s3.ap-northeast-2.amazonaws.com/index.html)
 
 ---
 
